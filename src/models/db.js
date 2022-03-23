@@ -2,6 +2,8 @@ import Sequelize from 'sequelize';
 import config from '../config/index.js';
 import { sendError } from './Response.js';
 
+console.log(config('DB_NAME'));
+
 const Db = new Sequelize(
     config('DB_NAME'),
     config('DB_USER'),

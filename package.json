@@ -1,7 +1,7 @@
 {
   "name": "template-api",
   "version": "1.0.0",
-  "type": "commonjs",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -29,6 +29,7 @@
     "koa-redis": "^4.0.1",
     "koa-session": "^6.2.0",
     "moment": "^2.29.1",
+    "mysql2": "^2.3.3",
     "node-cron": "^3.0.0",
     "pg": "^8.7.1",
     "redis": "^4.0.0",
